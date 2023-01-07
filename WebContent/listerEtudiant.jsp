@@ -6,19 +6,19 @@
     
 
 <%
-     Collection<Etudiant> etudiants = (Collection<Etudiant>)request.getAttribute("etudiant");
+    Collection<Etudiant> etudiants = (Collection<Etudiant>)request.getAttribute("etudiant");
 %>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Etudiants</title>
 <link href="css/bootstrap.css" rel="stylesheet">
 </head>
 <body>
 <div class="container">
    <div class="panel panel-primary">
-      <div class=" panel panel-heading"><h1 class="center">Liste des étudiants</h1></div>
+      <div class=" panel panel-heading"><h1 class="center">Liste des Etudiants</h1></div>
      
          <div class="panel-body">
      <a href="ajouterEtudiantForm" class="btn btn-primary">Créer</a>
