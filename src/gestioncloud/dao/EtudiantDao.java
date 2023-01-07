@@ -1,5 +1,5 @@
 package gestioncloud.dao;
-//v2 ggg
+//v2 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
